@@ -16,6 +16,18 @@ scss 를 import 해서 사용하면 나중에 main-color sub-main-color 를 한�
 
 - $main-color: #007aff;
 - $sub-main-color: #00c583;
+- 사용예시
+  ```html
+  <style lang="scss">
+    @import "../scss/_definition.scss";
+    .main {
+      color: $main-color;
+    }
+    .sub-main {
+      color: $sub-main-color;
+    }
+  </style>
+  ```
 
 ## 작업영역
 
