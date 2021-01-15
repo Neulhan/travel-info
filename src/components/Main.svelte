@@ -56,18 +56,20 @@
     }
     button {
       margin-top: 72px;
-      color: $gray-0;
-      background-color: $blue-d;
+      color: white;
       font-size: 24px;
       padding: 12px 72px;
-      transition: background-color 0.5s, transform 0.5s;
+      transition: transform 0.5s;
+      background-color: $sub-main-color;
       &:hover {
-        background-color: $blue;
-        transform: scale(1.01);
+        transform: scale(1.03);
       }
     }
-    .blue {
-      color: $blue;
+    .main {
+      color: $main-color;
+    }
+    .sub-main {
+      color: $sub-main-color;
     }
     canvas {
       position: fixed;
@@ -82,7 +84,7 @@
 </style>
 
 <div class="container">
-  <p>Welcome to <span class="blue">T</span>ravel-Info</p>
+  <p>Welcome to <span class="main">T</span>ravel-<span class="sub-main">I</span>nfo</p>
   <button on:click={() => {navigate("/map")}}>Let's start</button>
   <canvas bind:this={canvas}></canvas>
 </div>
