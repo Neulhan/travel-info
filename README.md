@@ -19,13 +19,13 @@ scss 를 import 해서 사용하면 나중에 main-color sub-main-color 를 한�
 - 사용예시
   ```html
   <style lang="scss">
-    @import "../scss/_definition.scss";
-    .main {
-      color: $main-color;
-    }
-    .sub-main {
-      color: $sub-main-color;
-    }
+  	@import "../scss/_definition.scss";
+  	.main {
+  		color: $main-color;
+  	}
+  	.sub-main {
+  		color: $sub-main-color;
+  	}
   </style>
   ```
 

@@ -1,13 +1,13 @@
 {
 	"name": "svelte-app",
 	"version": "1.0.0",
-	"homepage": "https://{github-id}.github.io/{repository-name}/",
+	"homepage": "https://neulhan.github.io/travel-info/",
 	"scripts": {
 		"predeploy": "npm run build",
-		"deploy": "gh-pages -d public",
+		"deploy": "",
 		"build": "rollup -c",
 		"dev": "rollup -c -w",
-		"start": "sirv public -s"
+		"start": "sirv public"
 	},
 	"devDependencies": {
 		"@rollup/plugin-commonjs": "^14.0.0",
