@@ -86,5 +86,7 @@
 <div class="container">
   <p>Welcome to <span class="main">T</span>ravel-<span class="sub-main">I</span>nfo</p>
   <button on:click={() => {navigate("/map")}}>Let's start</button>
+  <button on:click={()=>{navigate("/list")}}>
+    리스트</button>
   <canvas bind:this={canvas}></canvas>
 </div>
