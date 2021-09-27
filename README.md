@@ -1,4 +1,6 @@
-# Travel-Info(가제)
+# Travel-Info
+
+https://travel-info.life/
 
 ## 프로젝트 시작
 
